@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Make sure this file is processed by Tailwind CSS using PostCSS or the Tailwind CLI. 
-   If you see "Unknown at rule @tailwind", your build setup may be missing or misconfigured. */
+/* Si tu veux garder un style global sur body : */
+body {
+  background-color: #1a202c; /* Tailwind's bg-gray-900 */
+  color: #fff;               /* Tailwind's text-white */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* Tailwind's font-sans */
+}
